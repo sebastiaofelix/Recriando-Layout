@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rocket.sect</title>
-</head>
-<body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket.sect</title>
+
+    <link rel="stylesheet" href="style.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+
+  <header class="menu">
     <div class="logo"> 
       <img src="images/logo.svg" alt="logo site rocketseat">
     </div>
     <nav>
-      <ul>
+      <ul class="lista">
         <li>Início</li>
         <li>Serviços</li>
         <li>Contato</li>
@@ -21,10 +28,15 @@
     </nav>   
   </header>
 
-  <body>
-    <img src="images/img1.png" alt="mulher no notebook">
+  <div class="conteudo">
+
+    <div class="imagem">      
+      <img src="images/img1.png" alt="mulher no notebook">
+    </div>
 
     <section>
+    
+    <h1>Seus dados estão <span>protegidos?</span></h1> 
       <p>
         A informação é fundamental e de <b>extrema importância</b> para qualquer <br>empresa.
       </p>
@@ -35,8 +47,17 @@
       </p>
     </section>
 
-    <h1>Seus dados estão <span>protegidos?</span></h1> 
-    
-  </body>
+  </div>
+   
+  <div class="cadeado">
+    <img src="images/padlock.svg" alt="cadeado">
+  </div>
+
+  <div id="line"></div>
+
+  <footer>
+    para mais informações nos siga no instagram @rocketsect
+  </footer>
+
 </body>
 </html>
